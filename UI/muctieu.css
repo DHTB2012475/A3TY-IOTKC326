@@ -1,0 +1,139 @@
+#intro {
+    width: 500px;
+    height: 1000px;
+}
+
+#left {
+    width: 250px;
+    height: 1000px;
+    background-color: #d8c3c3;
+    float: left;
+}
+
+#left .box {
+    width: 250px;
+    color:#fff;
+    padding-top: 250px;   
+}
+
+#left img{
+    position: absolute;
+    object-fit: contain;
+    max-width: 30%;
+    max-height: 30%; 
+    float: left;
+    margin-top: 70px;
+    margin-right: 30px;
+    width: auto;
+    height: auto;
+}
+
+#left .box .name {
+    margin-left: 30px;
+}
+
+#left .box h3 {
+    color: #122647;
+    text-align: center;
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+
+#left .box h3:hover {
+    background-color: #fff;
+    color: #d8c3c3;
+    transition: 0.5s;
+}
+
+#left .box .quick-menu {
+    margin-top: 20px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+
+#left .box .quick-menu .item{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+    width: 180px;
+    height: 30px;
+}
+
+#left .box .quick-menu .item a{
+    color:#122647;
+}
+
+.box ul li{
+    position: relative;
+    left: 0;
+    color: #122647;
+    list-style: none;
+    margin: 4px 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.box ul li span{
+    position: relative;
+    padding: 8px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+}
+.box ul li::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #122647;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.box ul li:hover::before{
+    transform: scaleX(1);
+}
+.box ul li:hover{
+    left:10px;
+}
+
+.box ul li:hover span{
+    color: #1bfaad;
+}
+
+#right { 
+    position: absolute;
+    width: 900px;
+    height: 1000px;
+    margin-top: 100px;
+    margin-left: 300px;
+    background-color: #fff;
+    float: left;
+    font-size: 20px;
+    color: #122647;
+}
+
+#right .text p {
+   color: #122647;
+}
+
+#right h1:hover {
+    color: #1bfaad;
+    transition: 0.5s;
+}
+
+#footer {
+    width: 100%;
+    background:rgb(0,0,0,0.79);
+    height: 322px;
+    margin-top:338px;
+    padding:0px 63px;
+    padding-top:30px;
+    display: flex;
+    justify-content: space-around;
+}

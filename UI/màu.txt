@@ -1,0 +1,11 @@
+#d8c3c3; màu hồng
+#FFFFFF; màu trắng
+#1bfaad; màu xanh dạ quang
+linear-gradient(45deg, #00853e, #e8a261); màu cầu vồng
+
+#122647; màu xanh đen
+#cbd5f0: xanh vừa
+#f8f7f5: xanh nhạt
+#194f92: xanh đậm
+#df4c73: đỏ
+linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%): background

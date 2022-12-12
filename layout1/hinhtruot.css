@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.slider-item{
+	width: 100vw;
+	height: 100vh;
+}
+.slider-item:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+}
+.slider-item-one{
+	background-image: url('hinhtruot1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slider-item-two{
+	background-image: url('hinhtruot2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slider-item-three{
+	background-image: url('hinhtruot3.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.owl-prev{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 50px!important;
+	color: #fff!important;
+}
+.owl-next{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 50px!important;
+	color: #fff!important;
+}
+.owl-prev, .owl-next:hover {
+	background: none!important;
+}
+.owl-dots {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: 50%;
+	right: 30px;
+	transform: translateY(-50%);
+}
+.owl-dots span {
+	width: 15px!important;
+	height: 15px!important;
+	margin: 0!important;
+	background-color: transparent!important;
+}
+.owl-dots {
+	width: 23px;
+	height: 23px;
+	border: 2px solid #fff!important;
+	border-radius: 50%;
+	display: flex!important;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 6px;
+}
+.owl-dots.active span{
+	background-color: #A773E8!important;
+}

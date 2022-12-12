@@ -1,0 +1,95 @@
+#banner {
+	margin-top: 50px;
+	margin-left: 150px;
+	height: auto;
+	width: 1000px;
+}
+
+
+#main #left {
+	margin-bottom: 500px;
+	margin-left: 150px;
+	width: 750px;
+	float: left;
+	min-height: 400px;
+}
+
+#main ul li img {
+	width: 150px;
+	height: 150px;
+} 
+
+#main #left ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main #left ul li {
+	list-style: none;
+	clear: left;
+	border-bottom: 1px solid #194f92;
+	float: left;
+	margin-bottom: 20px;
+	color: #194f92;
+}
+
+#main #left ul li img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px; 
+}
+
+#main {
+	margin-top: 10px; 
+}
+
+#main #right {
+	width: 250px;
+	min-height: 400px;
+	float: left;
+}
+
+#main #right .menu_right ul {
+	margin: -15px 0px 0px 0px;
+	padding: 0px;
+	border: 0px solid #ccc;
+	border-top: 0px;
+}
+
+#main #right .menu_right ul li {
+	list-style: none;
+}
+
+#main #right .menu_right ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 45px;
+	height:50px;
+	border-bottom: 1px solid #194f92;
+	text-indent: 25px;
+	font-size: 14px;
+	color: #194f92;
+}
+
+#main #right .menu_right ul li a:hover {
+	color: #df4c73; 
+}
+
+#main #right .menu_right h3{
+	background: #cbd5f0;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+	color:#194f92;
+}
+.right
+{
+	position:relative;
+
+}
+.menu_right{
+	position:absolute;
+	width: 250px;
+	background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+}
